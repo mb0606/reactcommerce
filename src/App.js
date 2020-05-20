@@ -1,13 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import logo from './logo.svg'
+import './App.css'
+import HomePage from './homepage.component'
 
 function App() {
   return (
-    <div >
-      hello 
+    <div>
+      <HomePage />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
